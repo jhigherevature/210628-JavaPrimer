@@ -1,0 +1,2 @@
+This is the example.txt file.
+This is being used to showcase the first git commit
