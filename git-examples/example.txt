@@ -1,3 +1,4 @@
 This is the example.txt file.
 This is being used to showcase the first git commit
+This is a change from the main branch. This is to simulate merge conflicts!
 This is a new changed line.
