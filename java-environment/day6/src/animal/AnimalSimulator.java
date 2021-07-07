@@ -24,7 +24,7 @@ public class AnimalSimulator {
 		 */
 		a.eat();
 		((Dog)a).bark();
-//		((Cat)a).meow();
+//		((Cat)a).meow(); // unchecked exception
 		
 		/*
 		 * Below does not work, because our Animal class
