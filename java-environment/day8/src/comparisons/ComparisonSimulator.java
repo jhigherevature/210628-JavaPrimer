@@ -35,20 +35,20 @@ public class ComparisonSimulator {
 		System.out.println("After Sort:");
 		System.out.println(Arrays.toString(datas));
 
-//		System.out.println("Comparator [ID]:");
-//		ArrayList<Data> list = new ArrayList<Data>();
-//		list.add(d_1);
-//		list.add(d_2);
-//		list.add(d_3);
-//		list.add(d_4);
-//		list.add(d_5);
-//		System.out.println("Before ID Sort:\n" + list);
-//		Collections.sort(list, new DataIdComparator());
-//		System.out.println("ID Sort:\n"+ list);
-//		
-//		System.out.println("Comparator [WEIGHT]:");
-//		System.out.println("Before Weight Sort:\n"+list);
-//		Collections.sort(list, new DataWeightComparator());
-//		System.out.println("Weight Sort:\n"+list);
+		System.out.println("Comparator [ID]:");
+		ArrayList<Data> list = new ArrayList<Data>();
+		list.add(d_1);
+		list.add(d_2);
+		list.add(d_3);
+		list.add(d_4);
+		list.add(d_5);
+		System.out.println("Before ID Sort:\n" + list);
+		Collections.sort(list, new DataIdComparator());
+		System.out.println("ID Sort:\n"+ list);
+		
+		System.out.println("Comparator [WEIGHT]:");
+		System.out.println("Before Weight Sort:\n"+list);
+		Collections.sort(list, new DataWeightComparator());
+		System.out.println("Weight Sort:\n"+list);
 	}
 }
